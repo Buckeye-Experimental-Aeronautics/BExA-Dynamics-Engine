@@ -19,7 +19,7 @@ class Sim:
         for mod in modules:
             self.mods.append(mod(self.state))
 
-    def start(self):
+    def run(self):
         for i in range(self.end):
             # TODO: if perf ever becomes an issue, replace this for a scheduler of some kind
             # look into rings, heap schedulers, or even just grouping them for fewer mod ops

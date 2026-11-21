@@ -16,6 +16,5 @@ def main() -> None:
     #   - this is just a tie breaker, really
     sim.set_loop(Sensor)
 
-
     sim.start()
     print(sim.state.x)
